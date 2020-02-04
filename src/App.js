@@ -7,6 +7,7 @@ import Data from "./dummy-data.js"
 
 const App = (props) => {
     const [postData, setPostData] = useState(Data)
+    
 
     return (
         <div className="App" >

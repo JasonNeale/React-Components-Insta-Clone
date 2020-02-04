@@ -20,7 +20,14 @@
     min-width: 614px;
     max-width: 614px;
     margin-right: 28px;
-    height: 100vh;
+    height: calc(100vh - 200px);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.posts-user-column-wrapper{
+    display: flex;
+    flex-direction: column;
 }
 
 .posts-user-column {
@@ -28,8 +35,20 @@
     flex-direction: column;
     min-width: 293px;
     max-width: 293px;
-    height: 100vh;
+    height: 222px;
     border: thin solid #00f;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.posts-user-column-two {
+    display: flex;
+    flex-direction: column;
+    min-width: 293px;
+    max-width: 293px;
+    height: 196px;
+    border: thin solid #00f;
+    border-radius: 4px;
 }
 
 .post-header {
@@ -46,6 +65,7 @@
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(219,219,219);
+    background-color: #fff;
     margin-bottom: 60px;
     border-radius: 4px;;
 }
@@ -72,10 +92,6 @@
     margin-left: 14px;
 }
 
-.post-thumb-wrapper {
-
-}
-
 .post-thumb {
     height: 32px;
     width: 32px;
@@ -85,11 +101,11 @@
 .like-section {
     display: flex;
     justify-content: flex-start;
+    color: rgba(38,38,38, .8) !important;
 }
 
 .like-section-wrapper {
     height: 10px;
-    width: 10px;
     margin: 10px;
 }
 
@@ -97,6 +113,7 @@
     display: flex;
     width: 100px;
     margin: 15px 0 8px 10px;
+    color: rgba(38,38,38, .8) !important;
     font-size: 14px !important;
     font-weight: 600;
     font-size: 16px;
@@ -105,4 +122,13 @@
 
 .liked {
     color: #f00;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.icons {
+    font-size: 24px !important;
+    color: rgba(38,38,38, .8) !important;
 }

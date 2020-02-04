@@ -1,10 +1,24 @@
 // You do not need to change any code in this file
-import React from "react";
+import React, {useEffect} from "react";
 import "./SearchBar.css";
 
 const SearchBar = () => {
+    useEffect(() => {
+        window.onscroll = () => {
+            const mainHeader = document.getElementById("mainHeader")
+            const sticky = mainHeader.offsetTop
+
+            if (window.pageYOffset > sticky) {
+                mainHeader.classList.add("sticky");
+            } else {
+                mainHeader.classList.remove("sticky");
+            }
+        }
+    }, [])
+
+
     return (
-        <div className="search-bar-wrapper">
+        <div id="mainHeader" className="search-bar-wrapper">
             <div className="search-bar-inner-wrapper">
                 <div className="searchbar-col-one">
                     <div className="image-wrapper">
