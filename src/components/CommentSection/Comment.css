@@ -4,14 +4,15 @@
   margin-left: 4px;
 }
 .comment {
-  font-size: 16px;
+  font-size: 14px;
+  color: rgba(38,38,38, .7) !important;
 }
 .comment-form  {
   margin: 10px 0;
   width: 100%;
 }
 .comment-form input {
-  width: 100%;
+  width: calc(100% - 20px);
   font-size: 14px;
   padding: 10px;
   border: none;
@@ -21,6 +22,7 @@
 .user {
   font-size: 14px;
   margin-left: 5px;
-  color: black;
+  color: rgba(38,38,38, .8) !important;
   font-weight: bold;
+  margin-right: 4px;
 }

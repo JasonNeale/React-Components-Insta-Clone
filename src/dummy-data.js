@@ -44,6 +44,81 @@ const dummyData = [
                 text: "It that injustice"
             }
         ]
+    },
+    {
+        username: "xelayz_yt",
+        thumbnailUrl: 'https://scontent-ort2-1.cdninstagram.com/v/t51.2885-19/s150x150/80303825_2938626842838040_366147465222553600_n.jpg?_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_ohc=Z0qbhAPtybMAX__Sp1n&oh=2592645d78ea0d3a2a1630b9c6127914&oe=5ED6D0DA',
+        imageUrl: 'https://scontent-ort2-1.cdninstagram.com/v/t51.2885-15/e35/82667620_865694620555153_1686094257462021236_n.jpg?_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_cat=101&_nc_ohc=9hDclUkpatsAX97lUQ7&oh=f705034b6164e9c49f142d1aedad0a59&oe=5E3B6BA7',
+        likes: 418,
+        timestamp: "February 4th 2020, 03:12:09 pm",
+        comments: [
+            {
+                username: "xelayz_yt",
+                text: "Just a filler, who else misses old fortnite? | new big posts coming soon"
+            },
+            {
+                username: "tbg.knockerz",
+                text: "😓"
+            },
+            {
+                username: "tbg_snipegod",
+                text: "I felt that one"
+            },
+            {
+                username: "tbg.knockerz",
+                text: "😱"
+            }
+        ]
+    },
+    {
+        username: "gfuelenergy",
+        thumbnailUrl: 'https://scontent-ort2-1.cdninstagram.com/v/t51.2885-19/s150x150/79246428_474197766603982_848755657325674496_n.jpg?_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_ohc=k68cjT-0Wt0AX-bf2PX&oh=366925a5085102ffa8363ab258ddb17d&oe=5EB77DDE',
+        imageUrl: 'https://scontent-ort2-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p750x750/82620209_169296181165694_3004037382588306423_n.jpg?_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_cat=1&_nc_ohc=g8ZWCKHqXboAX-a_33E&oh=1c9cd0682faf9b6ed28b128016a48ab9&oe=5ED69E4F',
+        likes: 11107,
+        timestamp: "February 3rd 2017, 03:12:09 pm",
+        comments: [
+            {
+                username: "gfuelenergy",
+                text: "This box of #GFUEL shows up on your doorstep. Your 3rd most used emoji is your reaction: 📦👇"
+            },
+            {
+                username: "gfuelenergy",
+                text: "CR: @chloedonald 🔥"
+            },
+            {
+                username: "real_jude_legacy",
+                text: "🔥🔥🔥"
+            },
+            {
+                username: "vova.sakaev",
+                text: "😻"
+            }
+        ]
+    },
+    {
+        username: "forrnite",
+        thumbnailUrl: 'https://scontent-ort2-1.cdninstagram.com/v/t51.2885-19/s150x150/66448042_2242667475831809_6171290198106701824_n.jpg?_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_ohc=AZdmkVUkRCMAX_C2GdP&oh=5d19960b1bf43c159ea91cc3fe55419b&oe=5EBB95D2',
+        imageUrl: 'https://scontent-ort2-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/83885861_852326115218055_8896559348411238166_n.jpg?_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_cat=103&_nc_ohc=BBHVTc6mQD4AX8Spl_e&oh=6abe06fe6b817fbb12414e9e7b3fd113&oe=5ED0CF0A',
+        likes: 14820,
+        timestamp: "February 3rd 2020, 03:12:09 pm",
+        comments: [
+            {
+                username: "forrnite",
+                text: "Should Xbox Players Get More FREE Exclusive Skins Like PS4 Players? 🧐👇 (via/itsarkheops)"
+            },
+            {
+                username: "mrsavages.ig",
+                text: "They should🔥"
+            },
+            {
+                username: "grace_mayers24",
+                text: "Nah"
+            },
+            {
+                username: "thibo4092",
+                text: "Nah Xbox don’t deserve it"
+            }
+        ]
     }
 ];
 
